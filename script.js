@@ -1,4 +1,12 @@
 //Инициализируем Swiper
-new Swiper('.image-slider')
+new Swiper('.image-slider', {
+
+    navigation:{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    slidesPerView: 5,
+});
+
 
 
