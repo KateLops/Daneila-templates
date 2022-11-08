@@ -1,0 +1,172 @@
+html{
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+/*Стили шапки*/
+
+.header {
+    display: flex;
+    width: auto;
+    height: 60px;
+    justify-content: space-between;
+    align-content: center;
+}
+.headnav:link {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+.headnav:visited { 
+    color: #7c7c7c;
+    text-decoration: none;
+}
+.headcenter {
+    align-self: center;
+}
+.headright, .headleft {
+    width: 280px;
+    align-self: center;
+    font-size: larger;
+}
+.headleft {
+    text-align: start;
+}
+.headright {
+    text-align: end;
+}
+.headdot {
+    margin-right: 2px;
+    margin-left: 4px;
+}
+
+/*Стили баннербокса*/
+
+.allcontent {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+    
+}
+
+.bannerbox { 
+    
+    width: 20%;
+    
+    
+}
+.otherbox{
+    width: 79%;
+    
+}
+.banner_container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+    border-radius: 5px;
+   
+    color: white;
+    min-width: 0;
+}
+
+.other_container {
+    
+    
+    
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+#other_tile_1 {
+    background-color: lightgray ;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+
+#other_tile_2 {
+    background-color: lightgray ;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+   
+}
+
+.banner_content{
+    align-self: flex-end;
+    margin: 5px;
+}
+#banner_tile_1 {
+    width: 94%;
+    background-image: url(Kate.jpg);
+    border: 10px solid lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner_tile_2 {
+    background-color: lightgray ;
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    
+}
+.banner_content {
+    padding: 10px;
+    z-index: 10;
+}
+
+
+
+/*Стиль слайдера*/
+
+.image-slider__wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 100%;
+}
+
+.image-slider__image {
+    text-align: center;
+}
+
+.image-slider__image img{
+    max-width: 250px;
+}
+
+/*Пикча при пришествии отвала*/
+
+.error {
+    width: 50%;
+    margin: auto;
+}
+
+/*Стиль main. Я хз зачем он, там нет ничего кроме высоты, и то это ничего не даёт*/
+
+main {
+    height: 100%;
+}
+
+/*Стили "подвала"*/
+
+footer{
+    margin-top: 5px;
+    color: #7c7c7c;
+}
+.footer_divider {
+    display: flex;
+    margin-top: 10px;
+}
+.footdot {
+    margin-right: 5px;
+}
+
