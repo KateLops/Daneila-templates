@@ -43,43 +43,45 @@ body{
     margin-left: 4px;
 }
 
-/*Стили баннербокса*/
+/*Стили общего дива страницы*/
 
 .allcontent {
-   display: flex;
-   justify-content: space-between;
+   
    margin-top: 10px;
     
 }
 
+/* Настройка занимаемой области */
+
 .bannerbox { 
-    
-    width: 20%;
-    
-    
+    width: 100%;
 }
 .otherbox{
-    width: 79%;
-    
-}
-.banner_container {
-    display: flex;
     width: 100%;
-    height: 300px;
-    margin: 5px;
-    border-radius: 5px;
+}
+
+/* Всё что внутри*/
+
+.banner_container {
+    
+    width: 100%;
+    height: 200px;
+   
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
    
     color: white;
     min-width: 0;
 }
 
 .other_container {
-    
-    
-    
-    margin: 5px;
-    border-radius: 5px;
     color: white;
+}
+
+.other_container h1{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0;
 }
 
 #other_tile_1 {
@@ -97,17 +99,17 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
-   
 }
 
 .banner_content{
     align-self: flex-end;
     margin: 5px;
 }
+
 #banner_tile_1 {
-    width: 94%;
-    background-image: url(Kate.jpg);
-    border: 10px solid lightgray;
+    width: 100%;
+    background-image: url(green.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -125,9 +127,29 @@ body{
     z-index: 10;
 }
 
+/*Кнопка*/
 
+.button{
 
-/*Стиль слайдера*/
+    margin-top: 50px;
+
+    margin-left: 37%;
+    margin-right: 35%;
+    
+    width: 350px;
+    height: 30px;
+    background-color: white;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.button p{
+    text-align: center;
+    padding-top: 5px;
+    color:lightgray;
+}
+
+/*Настройка слайдера*/
 
 .image-slider__wrapper {
     padding-left: 30px;
